@@ -1,6 +1,6 @@
 {% set name = "django-reversion-compare" %}
-{% set version = "0.8.5" %}
-{% set sha256 = "be8dc4764c0e2be6d0d12364442750a8ee1f69b38cb10ed69f95d868ec0babbf" %}
+{% set version = "0.8.6" %}
+{% set sha256 = "c7b08298b5ce93ccd07a639c6506842649e5f4efd8ffd53317a08323456add15" %}
 
 package:
   name: {{ name|lower }}
