@@ -1,6 +1,6 @@
 {% set name = "django-reversion-compare" %}
-{% set version = "0.8.6" %}
-{% set sha256 = "c7b08298b5ce93ccd07a639c6506842649e5f4efd8ffd53317a08323456add15" %}
+{% set version = "0.9.1" %}
+{% set sha256 = "ab19e69dee42ba3bf2a49d1968fd7b9a6d71ce9106d078b1e97ee95844035c84" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   number: 0
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
